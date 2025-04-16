@@ -16,7 +16,7 @@ int missingK(vector < int > vec, int n, int k) {
             high = mid - 1;
         }
     }
-    return k +high + 1;
+    return k +high + 1;  // k+low
 }
 
 int main()
